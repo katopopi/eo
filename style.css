@@ -1,19 +1,3 @@
-@font-face {
-    font-family: "Proxima Nova";
-    src: url('/шрифты/proximanova_light.otf');
-}
- @font-face {
-    font-family: 'futura round demi';
-    src: url(/шрифты/afuturarounddemi.ttf);
-}
-@font-face {
-    font-family: 'Bely Display';
-    src: url(/шрифты/fonnts.com-Bely_Display_W00_Regular.ttf);
-}
-@font-face {
-    font-family: 'novel mono pro';
-    src: url(/шрифты/novel-mono-pro-regular.otf);
-}
 body {
     background-color: #F9F9F9;
 }
@@ -57,17 +41,17 @@ letter-spacing: -0.1px;
     width: 68px;
     margin-right: 8px;
 }
-.absolute {
+.header.illustration {
     margin-right: -206px;
     width: 1012px;
     height: 100%;
-    background-image: url(/blob-shape\ 1.svg);
+    background-image: url(./assets/images/blob.svg);
     background-repeat: no-repeat;
     background-position: 165px 10px;
     padding-bottom: 100px;
     padding-top: 80px;
 }
-.flex-header {
+.header {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -127,7 +111,7 @@ p {
     height: 144px;  
     margin: 70px auto 0 auto;
 }
-.block {
+.card_item {
     box-shadow: 0 2px 8px #0000001A;
     background-color: white;
     width: 427px;
@@ -143,6 +127,10 @@ p {
     font: 700 24px/32px 'proxima nova';
     margin-top: -30px;
     margin-bottom: 0;
+}
+.flex_main {
+    display: flex;
+    text-align: left;
 }
 .flex {
     display: flex;
@@ -447,4 +435,7 @@ p {
 .pablo {
     width: 644px;
     margin-left: 50px;
+}
+* button {
+    cursor: pointer;
 }

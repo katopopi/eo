@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "proxima nova";
+    src: url(./assets/fonts/proximanova_light.otf);
+}
+ @font-face {
+    font-family: "futura round demi";
+    src: url(./assets/fonts/afuturarounddemi.ttf);
+}
+@font-face {
+    font-family: "Bely Display";
+    src: url(./assets/fonts/Bely_Display.ttf);
+}
+@font-face {
+    font-family: "novel mono pro";
+    src: url(./assets/fonts/novel-mono-pro-regular.otf);
+}
